@@ -1,4 +1,4 @@
-import "./TodoItem.module.css";
+import "./TodoItem.modules.css";
 export const TodoItem = ({ value }) => {
   return (
     <>

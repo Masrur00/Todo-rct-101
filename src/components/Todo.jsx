@@ -16,7 +16,7 @@ export const Todo = () => {
         placeholder="enter todo"
         onChange={(e) => setValue(e.target.value)}
       />
-      <button onClick={handleTodo}>ADD</button>
+      <button onClick={handleTodo}>Add</button>
       <TodoList todos={todos} />
     </>
   );

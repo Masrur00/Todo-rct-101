@@ -1,0 +1,11 @@
+.App {
+  font-family: sans-serif;
+  margin-top: 50px;
+  /* text-align: center; */
+  margin-left: 654px;
+}
+
+.item {
+  margin-top: 0px;
+  border: 1px solid black;
+}

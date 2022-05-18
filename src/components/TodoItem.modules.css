@@ -1,7 +1,8 @@
 .todoList {
-  width: 25%;
+  width: 75%;
   margin-top: 30px;
   margin-left: 0px;
+  align-items: center;
   /* border: 1px solid black; */
   font-family: "Times New Roman", Times, serif;
   font-size: 3vh;

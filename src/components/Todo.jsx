@@ -11,13 +11,15 @@ export const Todo = () => {
   };
   return (
     <>
-      <input
-        value={value}
-        placeholder="enter todo"
-        onChange={(e) => setValue(e.target.value)}
-      />
-      <button onClick={handleTodo}>Add</button>
       <TodoList todos={todos} />
+      <div className="input-ele">
+        <input
+          value={value}
+          placeholder="enter todo"
+          onChange={(e) => setValue(e.target.value)}
+        />
+        <button onClick={handleTodo}>Add</button>
+      </div>
     </>
   );
 };

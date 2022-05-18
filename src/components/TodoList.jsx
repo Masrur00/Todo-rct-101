@@ -1,10 +1,11 @@
 import { TodoItem } from "./TodoItem";
-import "./TodoItem.modules.css";
+import "./TodoList.modules.css";
+import "./TodoItem.module.css";
 export const TodoList = ({ todos }) => {
   return (
     <div className={todos.length !== 0 ? "todoList" : null}>
       {todos.map((todo) => (
-        <TodoItem key={todo.id} {...todo} />
+        <TodoItem className="todo-item" key={todo.id} {...todo} />
       ))}
     </div>
   );

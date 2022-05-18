@@ -1,8 +1,8 @@
-import "/src/styles.css";
+import "./TodoItem.module.css";
 export const TodoItem = ({ value }) => {
   return (
     <>
-      <div className="item"> {value} </div>
+      <div className="todoItem"> {value} </div>
     </>
   );
 };
